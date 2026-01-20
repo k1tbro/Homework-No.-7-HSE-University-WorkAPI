@@ -43,7 +43,7 @@ def get_weather(city: str) -> None:
 
 if __name__ == "__main__":
     if API_KEY == "":
-        print("⚠️  Вставьте свой API-ключ в переменную API_KEY!")
+        print("⚠️  API_KEY!")
     else:
         city = input("Введите название города: ").strip()
         if city:
